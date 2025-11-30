@@ -1,0 +1,31 @@
+.bg {
+  min-height: 100vh;
+  background-image: url("/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.topnav {
+  background: rgba(0,0,0,0.4);
+  padding: 10px;
+  text-align: center;
+}
+
+.topnav a {
+  color: white;
+  margin-right: 10px;
+  padding: 6px 10px;
+  background: #1abc9c;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.logoutBtn {
+  background: red;
+  padding: 6px 10px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+}
